@@ -1,9 +1,9 @@
 //>>>... import card.css bcz we want to same desing as a card.js
 // 2. need to import object.js In shirt & pant compo--> so that we get shirt/pant obj frm object.js
 // 3. use filter method with object.js--> when click in shirt optn than we receive only shirt content---------------------
-//    <<<<<--------------> use Object.filter() --> TO FILTER OYT SOMETHING FROM AN ARRAY......>>>>>>>
+//    <<<<<--------------> use Object.filter() --> TO FILTER OUT SOMETHING FROM AN ARRAY......>>>>>>>
 //4. filter lgane ke bad hme object render krna hai us filter var k sath
-//    --> need to use map() inside return, than this id NEED to write inside curly {} braces
+//    --> need to use map() inside return, than also NEED to write inside curly {} braces to write map()
 import React from 'react'
 import '../Card.css'
 
@@ -21,7 +21,7 @@ export default function Shirt() {
   return (
     <div className='card-parent'>
 
-      {/* // 4.------use {} braces & shirtDataFilter.map()    --------------------------- */}
+      {/* // 4.------use {} braces bcz we write JS & shirtDataFilter.map()    --------------------------- */}
       {
 
         shirtDataFilter.map((ele) => {
