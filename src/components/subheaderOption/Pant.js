@@ -4,6 +4,7 @@
 //    <<<<<--------------> use Object.filter() --> TO FILTER OUT SOMETHING FROM AN ARRAY......>>>>>>>
 //4. filter lgane ke bad hme object render krna hai us filter variable k sath
 //    --> need to use map() inside return, than this id NEED to write inside curly {} braces
+
 import React from 'react'
 import '../Card.css'
 
